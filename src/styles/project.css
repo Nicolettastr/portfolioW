@@ -12,7 +12,7 @@
 
 .project-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    place-content: center;
     gap: 10px;
 }
 
@@ -51,4 +51,10 @@
     color: var(--white);
     background-color: var(--grey);
     border: 1px solid var(--white);
+}
+
+@media (min-width: 400px) {
+    .project-container {
+        grid-template-columns: 1fr 1fr;
+    }
 }
