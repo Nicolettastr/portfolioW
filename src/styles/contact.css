@@ -30,6 +30,7 @@ textarea {
 }
 
 .contact-form button {
+    height: 40px;
     border: 1px solid var(--grey);
     background-color: var(--white);
     color: var(--grey);
