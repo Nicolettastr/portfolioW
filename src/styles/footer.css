@@ -1,0 +1,29 @@
+.footer {
+    height: 30vh;
+    background-color: var(--grey);
+    align-items: center;
+    justify-content: end;
+}
+
+.footer-wrapper {
+    align-items: end;
+    padding: 3rem 0;
+}
+
+.footer-wrapper span {
+    padding: 0.5rem 0.8rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.footer p {
+    font-style: italic;
+    padding: 0;
+    color: var(--white);
+}
+
+.arrow-icon {
+    height: 100%;
+    justify-self: start;
+    padding-top: 1rem;
+}

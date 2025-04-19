@@ -1,0 +1,45 @@
+.text {
+    height: fit-content;
+    padding: 8rem 2rem 4rem 2rem;
+    align-items: end;
+    background-color: var(--beige);
+}
+
+.text h3 {
+    text-align: end;
+}
+
+.text p {
+    padding: 1.2rem 0.5rem;
+    line-height: 30px;
+    text-align: center;
+}
+
+.moreBtn {
+    width: 150px;
+    height: 40px;
+    border-radius: 0.3rem;
+    background-color: var(--beige);
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    margin: 0.5rem 2rem 0 0;
+}
+
+.more_btn_title {
+    padding: 0.5rem 2rem 0 0;
+    font-style: italic;
+}
+
+.about-icon {
+    width: 100%;
+    font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1280px) {
+}
