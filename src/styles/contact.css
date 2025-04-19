@@ -16,8 +16,8 @@
 
 input,
 textarea {
-    width: 70%;
-    height: 30px;
+    width: 85%;
+    height: 40px;
     border: none;
     background-color: var(--beige);
     border-radius: 0.3rem;
