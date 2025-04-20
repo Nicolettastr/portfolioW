@@ -1,86 +1,90 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&family=Special+Gothic+Condensed+One&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Playfair Display", serif;
-    font-weight: 400;
-    font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 :root {
-    --white: white;
-    --beige: #f5ebe0;
-    --gold: #d4a373;
-    --grey: grey;
-    --black: black;
+  --white: white;
+  --beige: #f5ebe0;
+  --gold: #d4a373;
+  --grey: grey;
+  --black: black;
 }
 
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 /*Measures*/
 .w-100 {
-    width: 100%;
+  width: 100%;
 }
 
 .vw-100 {
-    width: 100vw;
+  width: 100vw;
 }
 
 /*Display*/
 
 .space-around {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 .space-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .justify-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .d-flex {
-    display: flex;
+  display: flex;
 }
 
 .d-column {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .d-row {
-    flex-direction: row;
+  flex-direction: row;
 }
 
 .align-center {
-    align-items: center;
+  align-items: center;
 }
 
 /*styles*/
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 span {
-    color: white;
-    position: static;
-    z-index: 2;
-    padding: 0.1rem;
-    font-size: 1.8rem;
+  color: white;
+  position: static;
+  z-index: 2;
+  padding: 0.1rem;
+  font-size: 1.8rem;
+}
+
+button {
+  cursor: pointer;
 }
 
 .gl-title {
-    padding: 0.5rem 3rem 0 0;
-    font-size: 1.6rem;
-    width: fit-content;
-    color: var(--gold);
+  padding: 0.5rem 3rem 0 0;
+  font-size: 1.6rem;
+  width: fit-content;
+  color: var(--gold);
 }
