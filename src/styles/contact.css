@@ -1,5 +1,5 @@
 .contact {
-  height: 80vh;
+  height: 100vh;
 }
 
 .contact-form {
@@ -12,7 +12,7 @@
   max-width: 450px;
   display: flex;
   flex-direction: column;
-  padding: 2rem 0.8rem 0.5rem 0.8rem;
+  padding: 1rem 0.8rem 0.5rem 0.8rem;
 }
 
 input,

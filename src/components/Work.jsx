@@ -10,6 +10,7 @@ const Work = () => {
       name: "babel group",
       img: "/babel.png",
       link: "https://babelgroup.com/",
+      linkedin: "https://www.linkedin.com/company/babel/posts/?feedView=all",
       description:
         "Global tech consultancy specializing in digital transformation through AI, cybersecurity, and cloud solutions",
     },
@@ -17,6 +18,7 @@ const Work = () => {
       name: "sice",
       img: "/sice.png",
       link: "https://www.sice.com/",
+      linkedin: "https://www.linkedin.com/company/sice/posts/?feedView=all",
       description:
         "Multinational leader in integrating technologies for managing public infrastructure, specializing in mobility, transport, energy, and smart urban services. ",
     },
@@ -46,9 +48,17 @@ const Work = () => {
             <div className="company-info w-100">
               <h3>{company.name.toUpperCase()}</h3>
               <p>{company.description}</p>
-              <a className="work_icon" target="_blank" href={company.link}>
-                <SiLinkedin />
-              </a>
+              {company.linkedin ? (
+                <a
+                  className="work_icon"
+                  target="_blank"
+                  href={company.linkedin}
+                >
+                  <SiLinkedin />
+                </a>
+              ) : (
+                ""
+              )}
               <a className="work_icon" target="_blank" href={company.link}>
                 <MdOutlinePhonelink />
               </a>

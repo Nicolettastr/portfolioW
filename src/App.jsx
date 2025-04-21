@@ -1,22 +1,15 @@
+import { Route, Router, Routes } from "react-router-dom";
 import "./App.css";
-import About from "./components/About";
-import Banner from "./components/Banner";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Project from "./components/Project";
-import Work from "./components/Work";
+import Home from "./pages/Home";
 
 function App() {
-    return (
-        <>
-            <Banner />
-            <About />
-            <Work />
-            <Project />
-            <Contact />
-            <Footer />
-        </>
-    );
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      {/* <Route path="/projects" element={<Projects />} />
+      <Route path="/contact" element={<Contact />} /> */}
+    </Routes>
+  );
 }
 
 export default App;
