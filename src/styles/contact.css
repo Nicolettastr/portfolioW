@@ -31,11 +31,15 @@ textarea {
   height: 100px;
 }
 
+.contact-form h3 {
+  padding-bottom: 2rem;
+}
+
 .contact-form button {
   height: 40px;
-  border: 1px solid var(--grey);
+  border: 1px solid var(--gold);
   background-color: var(--white);
-  color: var(--grey);
+  color: var(--gold);
   margin-top: 2rem;
 }
 

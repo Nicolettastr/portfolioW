@@ -8,14 +8,17 @@ import "../styles/footer.css";
 const Footer = () => {
   const links = [
     {
+      id: "SiLinkedin",
       icon: <SiLinkedin />,
       url: "https://www.linkedin.com/in/nicole-struggia/",
     },
     {
+      id: "MdOutlinePhonelink",
       icon: <MdOutlinePhonelink />,
       url: "https://ns-five-pi.vercel.app/",
     },
     {
+      id: "FaGithub",
       icon: <FaGithub />,
       url: "https://github.com/Nicolettastr",
     },
@@ -29,7 +32,7 @@ const Footer = () => {
       <p className="gl-title">Find Me Around the Web</p>
       <div className="footer-wrapper w-100 d-flex justify-center">
         {links.map((link) => (
-          <a href={link.url} target="_blank">
+          <a key={link.id} href={link.url} target="_blank">
             {link.icon}
           </a>
         ))}

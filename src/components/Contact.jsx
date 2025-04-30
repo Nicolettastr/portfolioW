@@ -8,6 +8,7 @@ const Contact = () => {
         action=""
         className="contact-form d-flex w-100 d-column align-center justify-center"
       >
+        <h3 className="gl-title">Get in Touch</h3>
         <label>Name</label>
         <input type="text" placeholder="Who's reaching out?" />
         <label>Email</label>

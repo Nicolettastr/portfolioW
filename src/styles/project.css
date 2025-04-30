@@ -2,7 +2,7 @@
   height: fit-content;
   padding: 4rem 2rem 4rem 1.5rem;
   align-items: end;
-  background-color: var(--grey);
+  background-color: var(--green);
 }
 
 .projects-title {
@@ -27,12 +27,15 @@
 }
 
 .project-wrapper:hover {
-  background-color: var(--gold);
+  background-color: var(--greyL);
 }
 
 .project-link {
   height: 100%;
+  text-align: center;
+  padding: 1rem;
   color: var(--gold);
+  font-size: 1.2rem;
   transition: color ease-in-out 0.5s;
 }
 
@@ -50,7 +53,7 @@
 
 .more_btn_wrapper div button {
   color: var(--white);
-  background-color: var(--grey);
+  background-color: var(--green);
   border: 1px solid var(--white);
 }
 

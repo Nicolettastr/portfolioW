@@ -12,13 +12,25 @@
 :root {
   --white: white;
   --beige: #f5ebe0;
-  --gold: #dda853;
-  --grey: grey;
+  --green: #6a765f;
   --black: black;
+  --greyL: #68625c;
+  --gold: #a86523;
 }
 
 body {
   overflow-x: hidden;
+}
+
+.bg_nav {
+  position: relative;
+  z-index: 10;
+  background-color: transparent;
+}
+
+.nav_logo,
+.nav_links {
+  color: var(--green);
 }
 
 /*Measures*/
@@ -80,6 +92,7 @@ span {
 
 button {
   cursor: pointer;
+  font-size: 1rem;
 }
 
 .gl-title {

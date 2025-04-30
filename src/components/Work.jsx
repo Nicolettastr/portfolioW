@@ -33,10 +33,10 @@ const Work = () => {
 
   return (
     <section className="work">
-      <h3 className="gl-title">Highlights from the Road</h3>
+      <h3 className="gl-title work_title">Highlights from the Road</h3>
       <div className="logo_container w-100">
         {companies.map((company) => (
-          <div className="card w-100">
+          <div key={company.name} className="card w-100">
             <figure className="logo_wrapper w-100">
               <img
                 className="logo_img w-100"
@@ -66,7 +66,7 @@ const Work = () => {
           </div>
         ))}
       </div>
-      <div className="btn_wrapper">
+      <div className="btn_wrapper work_btn">
         <MoreBtn />
       </div>
     </section>

@@ -1,7 +1,8 @@
 .text {
-  height: fit-content;
+  height: 60vh;
   padding: 8rem 2rem 4rem 2rem;
   align-items: end;
+  justify-content: center;
   background-color: var(--beige);
 }
 
@@ -33,6 +34,25 @@
 .about-icon {
   width: 100%;
   font-size: 2rem;
+}
+
+.about_page {
+  height: 100vh;
+  background-color: var(--beige);
+}
+
+.title {
+  text-align: center;
+  font-size: 1.8rem;
+  color: var(--greyL);
+  font-style: italic;
+  font-weight: bold;
+  padding-top: 2rem;
+}
+
+.about_container {
+  position: absolute;
+  top: 7rem;
 }
 
 @media (min-width: 768px) {

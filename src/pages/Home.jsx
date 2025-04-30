@@ -14,7 +14,6 @@ const Home = () => {
       <Work />
       <Project />
       <Contact />
-      <Footer />
     </>
   );
 };

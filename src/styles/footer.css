@@ -1,6 +1,6 @@
 .footer {
   height: 30vh;
-  background-color: var(--grey);
+  background-color: var(--green);
   align-items: center;
   justify-content: end;
 }

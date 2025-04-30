@@ -1,7 +1,9 @@
 As a dedicated Web Developer with a strong focus on React, I thrive in environments that challenge my problem-solving skills and allow me to collaborate with diverse teams. I’m passionate about creating high-quality, scalable web solutions, and I take pride in continuously expanding my technical knowledge.
 
-I have experience in both front-end and back-end technologies, including React, Redux, Next.js, Node.js, and C#, with a solid background in working with APIs, databases, and modern development practices like test-driven development and debugging.
+I have experience in both front-end and back-end technologies. My day-to-day involves integrating services with React, React Query and Zustand, writing clean and efficient code, and working closely with clients to deliver solutions that actually make a difference. I also have experience with C# and .NET Core on the backend, which has given me a more complete view of how things work behind the scenes.
 
-I enjoy building user-friendly, dynamic websites that offer seamless experiences, and I’m always seeking ways to optimize performance and improve code quality. My journey has taught me the importance of adaptability, teamwork, and communication, which I value as essential skills for a successful developer.
+As someone who learns fast and cares about the details. Whether I’m debugging a tricky issue, refining a UI, or syncing up with a team, I try to stay curious, open, and focused on quality.I enjoy building user-friendly, dynamic websites that offer seamless experiences, and I’m always seeking ways to optimize performance and improve code quality. My journey has taught me the importance of adaptability, teamwork, and communication, which I value as essential skills for a successful developer.
+
+When I’m not coding, you’ll probably find me playing the piano, practicing violin, or trying to beat my personal record in Black Ops Zombies. This year, one of my goals is to be able to do 10 pull-ups in a row — and yes, I’m working on it.
 
 I’m excited to continue learning and growing as part of a team that values innovation and collaboration.
